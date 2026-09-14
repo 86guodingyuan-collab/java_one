@@ -40,7 +40,7 @@ public class Main {
 
         PayrollService service = new PayrollService();
         service.addEmployee(e1);
-        service.addEmployee(new Employee("李工", 28, "E002", 12000));
+        service.addEmployee(new Employee("赵工", 28, "E002", 12500));
         service.printPayroll();
         // 测试组合
         Car.Engine engine = new Car.Engine(250);
