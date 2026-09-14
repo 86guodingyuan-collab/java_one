@@ -3,10 +3,12 @@ package one.user;
 public class User {
     private String name;
     private int age;
+    private String id;
 
-    public User(String name, int age) {
+    public User(String name, int age, String id) {
         this.name = name;
         this.age = age;
+        this.id = id;
     }
 
     public String getName() {
@@ -25,8 +27,11 @@ public class User {
         this.age = age;
     }
 
+    public String getId() {return id;}
+    public void setId(String id) {this.id = id;}
+
     // 方法
     public void sayHello() {
-        System.out.println("你好, 我是 " + name + " 我 " + age + " 岁了.");
+        System.out.println("你好, 我是 " + name + " 我 " + age + " 岁了. 我的ID是 " + id + ".");
     }
 }

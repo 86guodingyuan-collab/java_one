@@ -2,7 +2,7 @@ package one.user;
 
 public class Test {
     public static void main(String[] args) {
-        User user = new User("张三", 25);
+        User user = new User("张三", 25, "001");
         System.out.println("姓名：" + user.getName() + " , 年龄：" + user.getAge());
         user.sayHello();
         
