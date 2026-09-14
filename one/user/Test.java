@@ -5,7 +5,7 @@ public class Test {
         User user = new User("张三", 25, "001");
         System.out.println("姓名：" + user.getName() + " , 年龄：" + user.getAge());
         user.sayHello();
-        System.out.println("---------------------------------");
+        System.out.println("'\'---------------------------------'/'");
         Student student = new Student("李四", 20, "002");
         System.out.println("姓名：" + student.getName() + " , 年龄：" + student.getAge());
         student.sayHello();      // 继承自 User 的方法
