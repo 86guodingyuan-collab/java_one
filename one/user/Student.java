@@ -10,6 +10,6 @@ public class Student extends User {
     // 子类独特方法
     public void sayStudent() {
         System.out.println("我是学生, 我的名字是" + getName()
-                + " 我 " + getAge() + " 岁了. 我的学号是 " + getId() + ".");
+                + " 我 " + getAge() + " 岁了. 我的学号是 " + getId() + ". ");
     }
 }
