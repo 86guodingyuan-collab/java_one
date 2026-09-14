@@ -10,6 +10,8 @@ public class Test {
         System.out.println("姓名：" + student.getName() + " , 年龄：" + student.getAge());
         student.sayHello();      // 继承自 User 的方法
         student.sayStudent();    // Student 独特方法
+        Teacher teacher = new Teacher("王五", 30, "002");
+        teacher.sayTeacher();
         
     }
 }
